@@ -275,3 +275,17 @@ nav {
     color: #525252;
 }
 
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #131921;
+    color: #fff;
+    padding: 20px 60px;
+}
+footer span {
+    font-size: 24px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #be0b3b
+}
