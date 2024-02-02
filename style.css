@@ -207,3 +207,37 @@ nav {
 .products-slider .products::-webkit-scrollbar {
     display: none;
 }
+
+.products-slider-with-price {
+    background: #fff;
+    margin: 0 30px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.products-slider-with-price .products {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    margin-top: 10px;
+
+}
+
+.products-slider-with-price .products::-webkit-scrollbar {
+    display: none;
+}
+.product-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    min-width: 210px;
+    max-width: 200px;
+    background: #fbfbfb;
+
+}
+
+.product-card img {
+    max-width: 110px;
+    margin: 0 50px;
+}
+
