@@ -65,3 +65,42 @@ nav {
     -ms-border-radius: 5px 0 0 5px;
     -o-border-radius: 5px 0 0 5px;
 }
+
+.nav-search-input {
+    border: none;
+    outline: none;
+    padding-left: 20px;
+    width: 100px;
+}
+
+.nav-search-icon {
+    max-width: 41px;
+    padding: 10px;
+    background: #febd69;
+    border-radius: 0 5px 5px 0;
+}
+
+.nav-language {
+    display:flex;
+    allign-items: center;
+    gap: 2px;
+    font-weight: 600;
+    margin-left: 15px;
+}
+
+.nav-text {
+    margin-left: 15px;
+    
+}
+.nav-text p{
+    font-size: 10px;
+}
+
+.nav-text h1{
+    font-size: 14px;
+}
+.nav-cart {
+    display: flex;
+    align-items: center;
+    margin-right: 0px 15px;
+}
