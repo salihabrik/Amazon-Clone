@@ -201,7 +201,8 @@ nav {
 
 .products-slider .products img {
     max-width: 200px;
-
+    cursor: pointer;
+    max-height: 200px;
 }
 
 .products-slider .products::-webkit-scrollbar {
@@ -219,23 +220,22 @@ nav {
     overflow-x: auto;
     gap: 10px;
     margin-top: 10px;
-
+}
 .products-slider-with-price .products::-webkit-scrollbar {
     display: none;
 }
 .product-card {
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    justify-content: end;
     min-width: 210px;
-    max-width: 200px;
     background: #fbfbfb;
 
 }
 
 .product-card img {
-    max-width: 110%;
-    margin: 0 auto;
+    max-width: 110px;
+    margin: 0 50px;
 }
 
 .product-offer p {
@@ -246,16 +246,32 @@ nav {
     border-radius: 2px;
     font-size: 13px;
     margin: 8px 0;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
 }
 
 .product-offer span {
     color: #be0b3b;
-    font-weight: 600;
-    font-size: 15px;
+    font-weight: 500;
+    font-size: 12px;
 }
 .product-offer h1 {
     font-size: 14px;
     font-weight: 600;
     margin: 8px 0;
+}
+
+.product-price {
+    color: gray;
+    font-size: 12px;
+}
+
+.product-price h4 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 8px 0;
+    color: #525252;
 }
 
