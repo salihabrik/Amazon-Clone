@@ -183,3 +183,27 @@ nav {
 .header-box {
     margin-top: -20vw;
 }
+
+.products-slider {
+    background: #fff;
+    margin: 0 30px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.products-slider .products {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px;
+    margin-top: 10px;
+
+}
+
+.products-slider .products img {
+    max-width: 200px;
+    max-height: 200px;
+}
+
+.products-slider .products::-webkit-scrollbar {
+    display: none;
+}
