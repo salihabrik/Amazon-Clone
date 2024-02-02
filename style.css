@@ -28,3 +28,16 @@ nav {
     padding: 10px, 20px;
     color: #fff;
 }
+.nav-country {
+    display: flex;
+    align-items: end;
+    margin-left: 15px;
+    font-size: 14px;
+    color: #c4c4c4;
+
+}
+
+.nav-country img {
+    width: 20px;
+    margin-right: 5px;
+}
