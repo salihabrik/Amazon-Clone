@@ -32,12 +32,36 @@ nav {
     display: flex;
     align-items: end;
     margin-left: 15px;
-    font-size: 14px;
+    font-size: 13px;
     color: #c4c4c4;
 
 }
 
-.nav-country img {
-    width: 20px;
-    margin-right: 5px;
+.nav-country h1 {
+    color: #fff;
+    font-size: 14px;
+}
+
+.nav-search {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    border-radius: 5px;
+    max-width: 1000px  ;
+    color: gray;
+    background: #fff;
+}
+
+.nav-search-gategory {
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 5px;
+    background:#e5e5e5;
+    border-radius: 5px 0 0 5px;
+    -webkit-border-radius: 5px 0 0 5px;
+    -moz-border-radius: 5px 0 0 5px;
+    -ms-border-radius: 5px 0 0 5px;
+    -o-border-radius: 5px 0 0 5px;
 }
